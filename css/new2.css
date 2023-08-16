@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bordu{
+    width: 35%;
+    border: 3px dashed violet;
+    margin: auto;
+    position: relative;
+    top: 10rem;
+    height: 400px;
+    background-color: #000;
+    border-radius: 1rem;
+}
+.bordu div{
+    float: right;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 30px;
+    top: -25px;
+    right: -30px;
+    position: relative;
+    border: 3px dashed violet;
+    color: violet;
+}

@@ -1,0 +1,37 @@
+.menu{
+    margin: auto;
+    position: relative;
+    top: 18rem;
+    width: 800px;
+    background-color: #8B79E8;
+    height: 380px;
+    padding: 10px;
+}
+.menu div{
+    margin: auto;
+}
+.div1{
+    background-color: #8B79E8;
+    width: 370px;
+    height: 220px;
+    top: 70px;
+    position: relative;
+    clip-path: polygon(100% 80%, 100% 110%, 50% 30%, 0 110%, 0 80%, 50% 0);
+}
+.menu .div2{
+    background-color: #FFF;
+    width: 300px;
+    height: 200px;
+    background-color: #8B79E8;
+    position: relative;
+    top: -20px;
+    clip-path: polygon(100% 80%, 100% 110%, 50% 30%, 0 110%, 0 80%, 50% 0);
+}
+.menu .div3{
+    clip-path: polygon(100% 50%, 100% 50%, 50% 100%, 0 50%, 0 50%, 50% 0);
+    background-color: #FFF;
+    width: 380px;
+    height: 380px;
+    position: relative;
+}
+

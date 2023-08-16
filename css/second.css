@@ -1,0 +1,21 @@
+.menu div{
+    width: 40%;
+    height: 400px;
+}
+
+.menu .div2{
+    background-color: aqua;
+    border: 2px solid #000;
+}
+.menu .div1{
+    float: right;
+    background-color: brown;
+    border: 2px solid #000;
+}
+/* 
+*{
+    flex-direction: ;
+    text-align: ;
+
+    => pour aligner un text ou une div au milieu
+} */
