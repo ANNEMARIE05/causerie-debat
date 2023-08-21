@@ -9,86 +9,83 @@
     margin: 0 auto;
     display: grid;
     grid-template-rows: repeat(15, 1fr);
-    grid-template-columns: repeat(15, 1fr);
+    grid-template-columns: repeat(18, 1fr);
     grid-gap: 0.5rem;
 }
-.parent div{
-    color: lightseagreen;
-    border: 1px solid black;
-    color: bisque;
-}
 .parent{
+    background-color: aquamarine;
+    color: aquamarine;
+}
+.parent :nth-child(21){
     background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
 }
-/* .parent :nth-child(18){
-    background-color: #FFF;
-}
-.parent :nth-child(32){
-    background-color: #FFF;
-    grid-row: 3/ span 3;
+ .parent :nth-child(38){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
+    grid-row: 3/ span 4;
     grid-column: 2;
 }
-.parent :nth-child(34){
-    background-color: #FFF;
-    grid-row: 3/ span 3;
+.parent :nth-child(40){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
+    grid-row: 3/ span 4;
     grid-column: 4;
 }
-.parent :nth-child(46){
-    background-color: #FFF;
-}
-.parent :nth-child(20){
-    background-color: #FFF;
-    grid-row: 2/ span 4;
+.parent :nth-child(44){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
+    grid-row: 2/ span 5;
     grid-column: 5;
-}.parent :nth-child(35){
-    background-color: #FFF;
+}
+.parent :nth-child(25){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
+}
+.parent :nth-child(43){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
+    grid-column: 9;
+    grid-row: 3/ span 4;
+}
+.parent :nth-child(27){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
+}
+.parent :nth-child(46){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
+    grid-column: 11;
+    grid-row: 3/ span 4;
+}
+.parent :nth-child(29){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
+    grid-column: 12;
+    grid-row: 2/ span 5;
 }
 .parent :nth-child(48){
-    background-color: #FFF;
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
+    grid-column: 14;
+    grid-row: 3/ span 2;
 }
-.parent :nth-child(23){
-    background-color: #FFF;
+.parent :nth-child(33){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
+    grid-column: 16;
+    grid-row: 2/ span 5;
 }
-.parent :nth-child(){
-    background-color: #FFF;
+.parent :nth-child(30){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
 }
-.parent :nth-child(){
-    background-color: #FFF;
-}.parent :nth-child(){
-    background-color: #FFF;
+.parent :nth-child(32){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
 }
-.parent :nth-child(){
-    background-color: #FFF;
+.parent :nth-child(57){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
 }
-.parent :nth-child(){
-    background-color: #FFF;
+.parent :nth-child(53){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
 }
-.parent :nth-child(){
-    background-color: #FFF;
-}.parent :nth-child(){
-    background-color: #FFF;
+.parent :nth-child(77){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
 }
-.parent :nth-child(){
-    background-color: #FFF;
+.parent :nth-child(41){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
 }
-.parent :nth-child(){
-    background-color: #FFF;
+.parent :nth-child(65){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
+} 
+.parent :nth-child(54){
+    background: linear-gradient(130deg,lightseagreen, lightcoral,lightseagreen);
 }
-
-.parent :nth-child(){
-    background-color: #FFF;
-}
-.parent :nth-child(){
-    background-color: #FFF;
-}.parent :nth-child(){
-    background-color: #FFF;
-}
-
-.parent :nth-child(){
-    background-color: #FFF;
-}.parent :nth-child(){
-    background-color: #FFF;
-}
-.parent :nth-child(){
-    background-color: #FFF;
-} */
