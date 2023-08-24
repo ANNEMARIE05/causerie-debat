@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    margin: 30vh auto 0;
+    height: 270px;
+    width: 300px;
+}
+.card div{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.card .card1{
+    float: left;
+    margin-left: -3rem;
+    margin-top: -2rem;
+    background-color: blue;
+}
+.card .card2{
+    float: right;
+    margin-right: -2.5rem;
+    margin-top: -2rem;
+    visibility: hidden;
+    background-color: yellow;
+}
+.card .card3{
+    float: left;
+    visibility: hidden;
+    background-color: red;
+    margin-top: 13.5rem;
+    margin-left: -4.9rem;
+}
+.card .card4{
+    float: right;
+    visibility: hidden;
+    background-color: purple;
+    margin-top: 13.5rem;
+    margin-right: -5rem;
+}
