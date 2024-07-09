@@ -1,0 +1,28 @@
+body{
+    background-color: #000;
+}
+.CardGame{
+    width: 400px;
+    height: 300px;
+    border: 10px solid #FFF;
+    border-radius: 20px;
+    margin: 15rem auto 0;
+    padding: 2rem;
+    color: #FFF;
+}
+input{
+    width: 97%;
+    padding: 0.3rem;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    margin: 1rem 0;
+}
+button{
+    height: 50px;
+    width: 200px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(0, 170, 255);
+    color: #FFF;
+}
